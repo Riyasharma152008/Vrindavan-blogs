@@ -1,0 +1,76 @@
+body {
+    background-image:url("/pink peacock feather background image.jpg");
+    color: rgb(163, 24, 135) ;
+    font-weight: bolder;
+    background-size: cover ;
+    background-repeat: no-repeat ;
+    background-attachment: fixed ;
+        
+}
+
+h1 {
+    text-align: center ;
+   color: rgb(162, 56, 181);
+   font-weight: bolder;
+   text-shadow: 2px 4px 4px #FFFFFF;
+}
+h3 {
+    color: rgb(0, 77, 64) ;
+   text-shadow: 2px 2px 4px #FFFFFF;
+   font-weight: bolder ;
+   
+}
+
+marquee {
+ background-color: rgba( 230, 192, 250, 0.8)  ;
+   color: rgb(0, 77, 64);
+    text-shadow: 2px 2px 4px #FFFFFF;
+    padding: 8px;
+    font-weight: bolder ;
+}
+
+#images{
+ border:0.7rem groove #B76E79;
+    border-radius:1%;
+    display: inline-block;
+    
+}
+
+#images a {
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap:2px;
+}
+
+    #images img {
+   width: 350px;
+    height: auto;
+}
+
+#endingnote {
+    text-align: center;
+}
+
+#contactlink {
+    text-align: center;
+}
+
+ /* Outer container frame styling */
+#table {
+    margin: 15px;
+    border: 0.5rem groove #B76E79;
+}
+
+/* The actual table frame styling */
+#table table {
+    width: 100%;
+    background-color: white;
+    border: 1px solid black; /* Creates the outer line of the double border */
+}
+
+/* This creates the inner cell lines */
+#table th, #table td {
+    padding: 10px;
+    border: 1px solid black; /* Creates the inner line of the double border */
+}
